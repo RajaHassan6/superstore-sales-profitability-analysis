@@ -3,6 +3,11 @@
 An end-to-end exploratory business analysis of Superstore transactional data using **Python, Pandas, and Matplotlib**.
 
 The project investigates sales performance, profitability, discount behavior, product categories, geographic performance, and customer segments to identify the main drivers of profit and loss.
+## Live Kaggle Notebook
+
+The complete executable version of this project, including outputs and visualizations, is available on Kaggle:
+
+[View the analysis on Kaggle](https://www.kaggle.com/code/aierajahassan/superstore-sales-profitability-analysis)
 
 ## Project Objectives
 
