@@ -3,6 +3,20 @@
 An end-to-end exploratory business analysis of Superstore transactional data using **Python, Pandas, and Matplotlib**.
 
 The project investigates sales performance, profitability, discount behavior, product categories, geographic performance, and customer segments to identify the main drivers of profit and loss.
+---
+
+## Results at a Glance
+
+| KPI | Result |
+|---|---:|
+| Total Sales | $2.30M |
+| Total Profit | $286.4K |
+| Overall Profit Margin | 12.47% |
+| Transaction Lines | 9,994 |
+| Loss-Making Transaction Rate | 18.72% |
+
+The analysis identified discounting, low-margin Furniture products, and geographic concentration of losses as major profitability issues.
+----
 ## Live Kaggle Notebook
 
 The complete executable version of this project, including outputs and visualizations, is available on Kaggle:
@@ -24,8 +38,8 @@ The analysis answers the following questions:
 
 The project uses the **Super Store** dataset available on Kaggle.
 
-Dataset source:  
-https://www.kaggle.com/datasets/itssuru/super-store
+
+**Dataset Source:** [Superstore Dataset on Kaggle](https://www.kaggle.com/datasets/itssuru/super-store)
 
 The dataset contains **9,994 transaction records** covering:
 
@@ -95,6 +109,16 @@ The dataset itself is not included in this repository.
 4. Protect and expand profitable Technology and Office Supplies sales.
 5. Track profit margin together with revenue rather than evaluating performance on sales alone.
 6. Improve future transaction-level data collection by including Order ID, Customer ID, Product ID, and transaction dates.
+----
+
+## Limitations
+
+- The dataset represents historical transactional data and does not contain a complete time-series structure for forecasting.
+- Important identifiers such as Order ID, Customer ID, and Product ID are not available in the analyzed version of the dataset.
+- Observed relationships between discounts and profitability represent associations rather than causal effects.
+- The analysis focuses on descriptive and exploratory analytics rather than predictive modelling.
+- Business costs, operating expenses, and customer acquisition costs are not included.
+---  
 
 ## Project Structure
 
@@ -104,3 +128,15 @@ superstore-sales-profitability-analysis/
 ├── .gitignore
 ├── README.md
 └── superstore_sales_profitability_analysis.ipynb
+```
+
+---
+
+## Author
+
+**Raja Hassan**
+
+Electrical Engineer transitioning into Data Science & AI, applying Python and analytics to engineering and general business problems.
+
+GitHub: [RajaHassan6](https://github.com/RajaHassan6)
+
